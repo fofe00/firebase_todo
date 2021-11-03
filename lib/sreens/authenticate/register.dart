@@ -68,7 +68,8 @@ class _RegisterState extends State<Register> {
               ),
               ElevatedButton(
                 onPressed: () {
-                  print("object");
+                  print(_email);
+                  print(_pwd);
                 },
                 child: Text('Register'),
               )

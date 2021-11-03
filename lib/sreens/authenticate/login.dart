@@ -69,6 +69,8 @@ class _LoginState extends State<Login> {
               ElevatedButton(
                 onPressed: () {
                   print("object");
+                  print(_email);
+                  print(_pwd);
                 },
                 child: Text('Login'),
               )
