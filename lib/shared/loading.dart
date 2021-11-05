@@ -11,7 +11,7 @@ class Loading extends StatelessWidget {
       child: Center(
         child: SpinKitFadingCube(
           color: Colors.blue,
-          size: 50.0,
+          size: 71.0,
         ),
       ),
     );
